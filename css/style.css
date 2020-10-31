@@ -140,13 +140,19 @@ section{
 
 	background: linear-gradient(45deg, #d3d3fd, #ffe9ff);
 
-	box-shadow: 18px -18px 30px #efebf0, -18px 18px 30px #ffffff;
+	box-shadow: 18px -18px 30px #efebf0, 
+	-18px 18px 30px #ffffff;
 
 	transition-duration: .3s;
 }
-.signup, .login:hover{
+.signup:hover{
 	box-shadow:  32px -32px 64px #ffffff, 
-                 -32px 32px 64px #c2b1cb;
+                 -32px 32px 64px #efebf0;
+}
+
+.login:hover{
+	box-shadow:  32px -32px 64px #ffffff, 
+                 -32px 32px 64px #efebf0;
 }
 
 form{
